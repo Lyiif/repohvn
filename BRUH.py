@@ -1,1 +1,0 @@
-print("git is just a fucking garbage.")
