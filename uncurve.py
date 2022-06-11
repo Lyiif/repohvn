@@ -12,4 +12,4 @@ def getmes(message):
       Timer(3600*24*7, s, [message.text]).start()
   except Exception as e:
       print(traceback.format_exc())
-bot.infinity_polling()
+bot.infinity_polling() 
