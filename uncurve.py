@@ -9,7 +9,9 @@ def getmes(message):
   try:
       Timer(3600, s, [message.text]).start()
       Timer(3600*24, s, [message.text]).start()
-      Timer(3600*24*7, s, [message.text]).start()
+      Timer(3600*24*3, s, [message.text]).start()
+      Timer(3600*24*6, s, [message.text]).start()
+
   except Exception as e:
       print(traceback.format_exc())
 bot.infinity_polling() 
